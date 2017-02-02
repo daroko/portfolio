@@ -1,0 +1,168 @@
+#viewport2{
+	width: 100%;
+	height:120px;
+	/* Defines the size of the visible part of the carousel
+		Attention : if you only want to see plain items in the viewport,
+		the width of the viewport should take into account of :
+		- the items width
+		- the right and left padding of items
+		- the number of items you want to see in the viewport
+	 */
+	overflow:hidden; /* Hides extra elements, those outside the viewport area */
+}
+#viewport2 ul{
+	position: relative; /* Enables positionning of elements inside viewport */
+	padding: 0; /* Resets default - User Agent - style */
+}
+#viewport2 li{
+	min-width: 60px; /* Defines the size of inner element */
+	height: 100%;
+	float: left; /* Places list items side by side*/
+	list-style: none; /* Resets default - User Agent - style */
+	
+	/* Cosmetic */
+	background-color:#fff;
+	margin: 0 1px;
+	padding: 10px;
+	padding: 10px;
+	padding-left:1px;
+	padding-right:1px;
+	text-align:center;
+}
+
+/* Cosmetic */
+#simplePrevious{
+cursor: pointer;
+	font-size: 0.8em;
+	text-decoration: underline;	
+	
+}
+ #simpleNext{
+	cursor: pointer;
+	font-size: 0.8em;
+	text-decoration: underline;	
+}
+
+
+
+
+#viewport3a{
+	/*float:left;*/
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:60px;
+	height:100%;
+	background-color:#fff;
+	z-index:4;
+}
+#viewport3aa{
+	/*float:left;*/
+	position:relative;
+	top:25%;
+	left:0px;
+	width:40px;
+	height:100px;
+	/*background-color:red;	*/
+}
+#viewport3aaa{
+	/*float:left;*/
+	position:relative;
+	top:0px;
+	left:0px;
+	width:40px;
+	height:100px;
+	/*background-color:pink;	*/
+	background-image: url(../grafika/pra1.png);
+	
+}
+#viewport3bbb{
+	/*float:left;*/
+	position:relative;
+	top:0px;
+	left:0px;
+	width:40px;
+	height:100px;
+	/*background-color:pink;	*/
+	background-image: url(../grafika/lew1.png);
+}
+#viewport3bb{
+	/*float:left;*/
+	position:relative;
+	top:25%;
+	left:20px;
+	width:40px;
+	height:100px;
+	/*background-color:red;	*/
+}
+#viewport3b{
+	/*float:left;*/
+	position:absolute;
+	top:0px;
+	right:0px;
+	width:60px;
+	height:120px;
+	background-color:#fff;
+	z-index:4;
+}
+
+#viewport3{
+	float:left;
+	padding-left:40px;
+	padding-right:40px;
+	width:100%;
+	/*min-width: 200px;
+	max-width:1000px;*/
+	max-height:220px;
+/*	background-color:pink;*/
+	/* Defines the size of the visible part of the carousel
+		Attention : if you only want to see plain items in the viewport,
+		the width of the viewport should take into account of :
+		- the items width
+		- the right and left padding of items
+		- the number of items you want to see in the viewport
+	 */
+	overflow:hidden; /* Hides extra elements, those outside the viewport area */
+}
+#viewport3 ul{
+	position: relative; /* Enables positionning of elements inside viewport */
+	padding: 0; /* Resets default - User Agent - style */
+}
+#viewport3 li{
+	position: relative;
+	top:0px;
+	min-width: 60px; /* Defines the size of inner element */
+	max-width: 200px;
+	max-height:200px;
+	height: 100%;
+	float: left; /* Places list items side by side*/
+	list-style: none; /* Resets default - User Agent - style */
+	overflow:hidden; 
+	/* Cosmetic */
+	background-color:#fff;
+	margin: 0 1px;
+	padding: 10px;
+	padding: 10px;
+	padding-left:1px;
+	padding-right:1px;
+	text-align:center;
+}
+
+/* Cosmetic */
+#simplePrevious2{
+cursor: pointer;
+	font-size: 1em;
+	text-decoration: underline;	
+	
+}
+ #simpleNext2{
+	cursor: pointer;
+	font-size: 1em;
+	text-decoration: underline;	
+}
+
+
+
+
+
+

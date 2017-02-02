@@ -1,0 +1,172 @@
+
+.pagination {
+	margin:35px auto 0;
+	width:165px;
+	height:20px;	
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+.pagination li a {
+	display:block;
+	width:20px;
+	height:16px;
+	text-align:center;
+	font-size:14px;
+	font-weight:400;
+	margin-left:-1px;
+	padding-left:0px;
+	padding-top:-16px;
+	background-image:url(../grafika/pagination.png);
+	/*background: url(pagination.png));*/
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+	color:#fff;
+	font-family:Book Antiqua;
+	
+}
+
+.pagination li.current a {
+	background-position:0 -16px;
+	color:#b33d1d;
+}
+
+
+
+
+#menud_1{
+ position:relative;
+  width: 952px;
+  height:290px;
+  /*background-color:blue;*/
+   margin-left:1px;
+  font-family:Book Antiqua;
+  font-size:14px;
+  color:#fff;
+}
+.menud_10a{
+ position:relative;
+  width: 952px;
+  min-height:200px;
+ background-color:#250707; 
+ 
+}
+#menud_1 .menud_10a .menud_1a{
+  position:absolute;
+  width: 310px;
+  height:200px;
+  background-color:#250707;
+  left:0px;
+   top:10px;
+}
+#menud_1 .menud_10a .menud_1a .tekst{
+ font-family:Book Antiqua;
+ font-size:13px;
+ color:#fff;
+ margin-left:15px;
+ text-align:left;
+}
+
+
+#menud_1 .menud_10a .menud_1b{
+position:absolute;
+  width: 11px;
+  min-height:160px;
+   background:url(../grafika/pasekd.png);
+   left:310px;
+    top:20px;
+}
+#menud_1 .menud_10a .menud_1c{
+position:absolute;
+  width: 310px;
+  height:200px;
+   background-color:#250707;
+   left:321px;
+    top:10px;
+}
+#menud_1 .menud_10a .menud_1c .obraz{
+position:absolute;
+  width: 310px;
+  height:200px;
+    background:url(../grafika/telefon.png);
+   left:0px;
+   top:0px;
+}
+#menud_1 .menud_10a .menud_1c .tekst{
+ font-family:Book Antiqua;
+ font-size:24px;
+ color:#fff;
+text-align:center;
+margin-top:0px;
+
+}
+
+#menud_1 .menud_10a .menud_1d{
+position:absolute;
+  width: 11px;
+  min-height:160px;
+    background:url(../grafika/pasekd.png);
+   left:631px;
+   top:20px;
+}
+#menud_1 .menud_10a .menud_1e{
+position:absolute;
+  width: 310px;
+  min-height:190px;
+   background-color:#250707;
+   left:642px;
+   top:10px;
+}
+
+#menud_1 .menud_10a .menud_1e .tekst{
+ font-family:Book Antiqua;
+ font-size:24px;
+ color:#fff;
+text-align:center;
+margin-top:0px;
+}
+#menud_1 .menud_10a .menud_1e .obraz{
+text-align:center;
+margin-top:-10px;
+margin-left:-10px;
+}
+
+.menud_10b{
+ position:relative;
+  width: 952px;
+  min-height:90px;
+    background:url(../grafika/stopka1.png);
+}
+#menud_1 .menud_10b .menud_1a{
+  position:absolute;
+  width: 310px;
+  height:30px;
+ /* background-color:green;*/
+  left:40px;
+  top:40px;
+}
+#menud_1 .menud_10b .menud_1af{
+  position:absolute;
+  width: 24px;
+  height:25px;
+  left:45px;
+  top:10px;
+}
+#menud_1 .menud_10b .menud_1af a{
+border:0px solid red;
+}
+#menud_1 .menud_10b .menud_1af a:hover{
+border:0px solid red;
+}
+#menud_1 .menud_10b .menud_1b{
+  position:absolute;
+  width: 530px;
+  height:30px;
+  /*background-color:green;*/
+  left:400px;
+  top:40px;
+}
