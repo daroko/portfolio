@@ -47,9 +47,6 @@
 				Powyższa strona to portolio o mnie tzn. o Darku Krystek , programiście z miasta Łodźi, na stronie będe umieszczał moje projekty z różnych dziedzin </br>
 				programowania w przyszłości uruchomie blog gdzie będe starał się opisywać krok po kroku rozwiązania problemów na które się natknołem w swojej pracy.
 
-
-
-			
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="min-height:15px;"></div>
 				<div class="" style="height:20px;width:70px;margin:auto;"><img  src="assets/dar/grafika/kropki.png"   /></div>
 			
@@ -104,7 +101,7 @@
 </div>
 
 
- <div id="realizacje">     
+ <div>     
         <div class="row">		 
 		<div class="col-lg-12 col-md-12 col-xs-12" style="text-align:center;background-color:#fff;min-height:580px;">
 		<div class="zespoldiv" style="">	  
@@ -112,7 +109,7 @@
 	  
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:120px;margin-top:0px;padding-right:0px;background-color:#000;">	
       
-	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:30px;text-align:center;" >	
+	  <div id="realizacje"  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:30px;text-align:center;" >	
 		 <div class="p3dar divGisha" STYLE="line-height:30px;"> <b style="font-weight:400;color:#FFF;" >GALERIA</b></div>
 		 <div class="p1dar divGisha" STYLE=""> <b style="font-weight:400;color:#FFF;"> NASZE OSTATNIE REALIZACJE</b></div>
 	  </div>
@@ -132,7 +129,7 @@ test 111
 		// $gal2=$this->GetQueryArrayresult($query2);	
 		 $gal2=array();	
 		  
-		echo '<div><ul id="pictures"><center>';	 
+		echo '<div  ><ul id="pictures"><center>';	 
 		$ii=0;
 		//while(@$artykul=mysql_fetch_array($gal2))
 		//while(@$artykul=mysql_fetch_array($galindex))
@@ -317,16 +314,17 @@ test 111
 
 
 
- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background-color:#fff;">
+		 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background-color:#fff;">
 		   <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10" style="background-color:white;min-height:60px;">
 		   <div style="height:60px;background-color:#fff;">
 		
 			<div class="" style="padding-left:0px;padding-right:0px;max-width:1200px;min-width:300px;background-color:#fff;color:#000;margin:0 auto;position:relative;">		   
 			<div style="text-align:center;color:#000;margin-right:0px;margin-top:30px;">realizacja  <a href="http://#/" class="lemma">DK</a> 2017</div>
-			</div>			   
+			</div>
+
 			</div>			   
 			</div>				
-			</div>				
+		 </div>				
 		  
 		  </div>
 		  

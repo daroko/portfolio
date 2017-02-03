@@ -7,14 +7,14 @@ class galeria extends CI_Controller
 		parent::__construct();
 		// Ładujemy bibliotekę sesji
 	//	$this->load->library('session');
+
+	$this->load->helper('url');
 	}
 
 	public function index()
 	{
-	
-
        $this->load->view('dar/naglowek');
-
+		$baseurl= base_url();
         //$this->load->view('dar/indexs');
 
 		//$this->load->model('menu');
@@ -25,10 +25,10 @@ class galeria extends CI_Controller
 		$data['link3v']="GALERIA";
 		$data['link5v']="KONTAKT";
 
-		$data['link1']="#home";
-		$data['link2']="#omnie";
-		$data['link3']="#realizacje";
-		$data['link5']="#kontakt";
+		$data['link1']=$baseurl."#home";
+		$data['link2']=$baseurl."#omnie";
+		$data['link3']=$baseurl."#realizacje";
+		$data['link5']=$baseurl."#kontakt";
 		$data['face']="https://www.facebook.com/darek.krystek";
 		$data['twiter']="#";
 		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do Idea Home";
@@ -38,7 +38,7 @@ class galeria extends CI_Controller
 		$data['activ3']="";
 		$data['activ4']="";	
 
-		$this->load->view('dar/menu',$data);	
+		$this->load->view('dar/menugal',$data);	
 
 
 		$this->load->model('galery');
@@ -49,19 +49,54 @@ class galeria extends CI_Controller
 		$data['galwww'] = $this->galery->getk(1);
 		//$data['galprog'] = $this->galery->getk(11);
 
-$ccc=$this->galery->getk(1);
-
-var_dump($ccc);
+//$ccc=$this->galery->getk(1);
+//var_dump($ccc);
 
 
         $this->load->view('dar/galeria',$data);
         $this->load->view('dar/stopka');
 	
-
-
-
 	}
 
+
+public function wiecej($id)
+{
+//echo $id."---------";
+$baseurl= base_url();
+
+ $this->load->view('dar/naglowek');
+
+ 		$data['link1v']="HOME";
+		$data['link2v']="O MNIE";
+		$data['link3v']="GALERIA";
+		$data['link5v']="KONTAKT";
+
+		
+		$data['link1']=$baseurl."#home";
+		$data['link2']=$baseurl."#omnie";
+		$data['link3']=$baseurl."#realizacje";
+		$data['link5']=$baseurl."#kontakt";
+		$data['face']="https://www.facebook.com/darek.krystek";
+		$data['twiter']="#";
+		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do Idea Home";
+
+		$data['activ1']="active";
+		$data['activ2']="";
+		$data['activ3']="";
+		$data['activ4']="";	
+
+		$this->load->view('dar/menugal',$data);	
+		$this->load->model('galery');
+
+
+		$data['galwww'] = $this->galery->getex($id);
+		$this->load->view('dar/galeriawiecej',$data);
+        $this->load->view('dar/stopka');
+
+
+
+
+}
 
 
 

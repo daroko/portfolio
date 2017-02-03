@@ -19,7 +19,24 @@ height:100%;
 margin:auto;
 }
 
+.galery{
+width:100%;
+min-height:400px;
 
+}
+.galery .gal1{
+float:left;
+width:50%;
+min-height:400px;
+}
+.galery .gal2{
+float:left;
+width:50%;
+min-height:400px;
+}
+.textstyle1{
+	color:#000;
+}
 
 #features {
   max-width:none;

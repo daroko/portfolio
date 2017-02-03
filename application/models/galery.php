@@ -3,6 +3,7 @@
 class galery extends CI_Model
 {
 public $table = 'galeryitem';
+public $table1 = 'galeryitemex';
 public $table0 = 'galery';
 	
 
@@ -25,6 +26,11 @@ public function get_all()
 		return $this->db->where('k_id', $id)->get($this->table)->row_array();
 	}
 
+	public function getex($id)
+	{
+		$items=$this->db->where('g_id', $id)->get($this->table1)->result_array();
+		return $items;
+	}
 
 	public function getk($id)
 	{

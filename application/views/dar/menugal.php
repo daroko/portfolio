@@ -66,20 +66,17 @@
 			  
 			  </div>
 			  
-			
-					
-
-
             <div class="navbar-collapse collapse men1" style="margin:auto;height:20px;">
 			
 					
 			  <div style="width:100%;">	
 			   <ul class="nav navbar-nav men1ul" style="margin:auto;">
 			   
-                <li class="menuItem  link1"><a href="<?php echo $link1 ?>" onfocus="blur()"><?php echo $link1v ?></a></li>             
-                <li class="menuItem link2"><a  href="<?php echo $link2 ?>" onfocus="blur()"><?php echo $link2v ?></a></li>
-				<li class="menuItem link3"><a  href="<?php echo $link3 ?>" onfocus="blur()"><?php echo $link3v ?></a></li>  
-                <li class="menuItem link4"><a  href="<?php echo $link5 ?>" onfocus="blur()"><?php echo $link5v ?></a></li>
+                <li class="menuItem "><a href="<?php echo $link1; ?>" onfocus="blur()" ><?php echo $link1v; ?></a></li>    
+
+                <li class="menuItem "><a  href="<?php echo $link2; ?>" onfocus="blur()"><?php echo $link2v; ?></a></li>
+				<li class="menuItem "><a  href="<?php echo $link3; ?>" onfocus="blur()"><?php echo $link3v; ?></a></li>  
+                <li class="menuItem "><a  href="<?php echo $link5; ?>" onfocus="blur()"><?php echo $link5v; ?></a></li>
               </ul>
 			  </div>
 			  

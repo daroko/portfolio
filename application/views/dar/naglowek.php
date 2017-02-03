@@ -28,18 +28,18 @@
 
 
 
-  <link href="assets/dar/style/bootstrap.css" rel="stylesheet">
-  <link href="assets/dar/style/style_strony.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>/assets/dar/style/bootstrap.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>/assets/dar/style/style_strony.css" rel="stylesheet">
 
-<link rel="Shortcut icon" href="assets/dar/grafika/ikona2.ico" />
-<link href="assets/dar/style/ui.totop.css" rel="stylesheet" type="text/css" /> 
-<link rel="stylesheet" href="assets/darimages/style/simple-list.css" type="text/css" media="screen" />
+<link rel="Shortcut icon" href="<?php echo base_url(); ?>/assets/dar/grafika/ikona2.ico" />
+<link href="<?php echo base_url(); ?>/assets/dar/style/ui.totop.css" rel="stylesheet" type="text/css" /> 
+<!--<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/darimages/style/simple-list.css" type="text/css" media="screen" />-->
 
-<link rel="stylesheet" href="assets/dar/style/animate.css">
-<link rel="stylesheet" href="assets/dar/style/hover.css">
-<link rel="stylesheet" href="assets/dar/style/eskju.jquery.scrollflow.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/dar/style/animate.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/dar/style/hover.css">
+<link rel="stylesheet" href="<?php echo base_url(); ?>/assets/dar/style/eskju.jquery.scrollflow.css">
 
-<link rel="stylesheet" href="assets/dar/js/fancy/jquery.fancybox.css?v=3.0.0" type="text/css" media="screen" />
+<link rel="stylesheet" href="<?php echo base_url(); ?>assets/dar/js/fancy/jquery.fancybox.css?v=3.0.0" type="text/css" media="screen" />
 
 
 
