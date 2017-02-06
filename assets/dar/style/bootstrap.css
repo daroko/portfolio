@@ -4848,8 +4848,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   line-height: 20px;
   text-decoration: none;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 2px solid #dddddd;
   border-left-width: 0;
+  color: #000;
 }
 
 .pagination ul > li > a:hover,
@@ -4860,7 +4861,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 .pagination ul > .active > a,
 .pagination ul > .active > span {
-  color: #999999;
+  color: green;
   cursor: default;
 }
 

@@ -50,17 +50,19 @@ class galeria extends CI_Controller
 		$config['base_url'] = site_url('galeria/index/');
 		$config['total_rows'] = $this->galery->count_all();
 		$config['per_page'] = 2;
-		
+
 		$config['full_tag_open'] = '<div class="pagination"><ul>';
         $config['full_tag_close'] = '</ul></div>';
         $config['first_link'] = false;
         $config['last_link'] = false;
         $config['first_tag_open'] = '<li>';
         $config['first_tag_close'] = '</li>';
-        $config['prev_link'] = '&larr;';
+        $config['prev_link'] = '<';
+       // $config['prev_link'] = '&larr;';
         $config['prev_tag_open'] = '<li class="prev">';
         $config['prev_tag_close'] = '</li>';
-        $config['next_link'] = '&rarr;';
+        $config['next_link'] = '>';
+       // $config['next_link'] = '&rarr;';
         $config['next_tag_open'] = '<li>';
         $config['next_tag_close'] = '</li>';
         $config['last_tag_open'] = '<li>';
