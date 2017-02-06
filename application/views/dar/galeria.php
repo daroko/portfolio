@@ -14,11 +14,12 @@ $baseurl= base_url();
 foreach ($galwww as $www)
 {
 $ii++;
-//$img=$www['image'];
-//$tekst=$www['tekst'];
-$img=$baseurl."/".$www->image;
-$tekst=$www->tekst;
-$id=$www->id;
+$img=$baseurl."/".$www['image'];
+$tekst=$www['tekst'];
+//$img=$baseurl."/".$www->image;
+//$tekst=$www->tekst;
+//$id=$www->id;
+$id=$www['id'];
 
 /*
 print'
@@ -69,9 +70,10 @@ print'</div>
 
 
 <div class="col-lg-12 col-md-12 col-xs-12" style="text-align:center;background-color:#000;min-height:50px;">	
-		<div class="" style="text-align:center;">	
+		<div  style="text-align:center;">	
 
-		
+		 <?php echo $pagination; ?>
+
 	</div>
 	</div>
 

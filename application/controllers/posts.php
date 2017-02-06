@@ -32,6 +32,7 @@ class Posts extends CI_Controller
 
 		// Ładujemy model
 		$this->load->model('post_model');
+		
 	}
 
 	public function index()

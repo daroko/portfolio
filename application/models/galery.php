@@ -16,6 +16,21 @@ public function get_all()
 					->result_array();
 	}
 
+	public function get_all2($limit, $offset)
+	{
+		return $this->db
+					->limit($limit, $offset)
+					->order_by($this->table.'.id', 'desc')
+					->get($this->table)
+					->result_array();
+	}
+
+
+	public function count_all()
+	{
+		return $this->db->count_all($this->table);
+	}
+
 	public function get($id)
 	{
 		return $this->db->where('id', $id)->get($this->table)->row_array();

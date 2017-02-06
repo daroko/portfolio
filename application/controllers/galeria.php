@@ -13,8 +13,12 @@ class galeria extends CI_Controller
 
 	public function index()
 	{
-       $this->load->view('dar/naglowek');
+		$this->load->library('pagination');
+		
+
 		$baseurl= base_url();
+        $this->load->view('dar/naglowek');
+		
         //$this->load->view('dar/indexs');
 
 		//$this->load->model('menu');
@@ -40,13 +44,49 @@ class galeria extends CI_Controller
 
 		$this->load->view('dar/menugal',$data);	
 
+		
 
 		$this->load->model('galery');
+		$config['base_url'] = site_url('galeria/index/');
+		$config['total_rows'] = $this->galery->count_all();
+		$config['per_page'] = 2;
+
+		$config['full_tag_open'] = '<div class="pagination"><ul>';
+        $config['full_tag_close'] = '</ul></div>';
+        $config['first_link'] = false;
+        $config['last_link'] = false;
+        $config['first_tag_open'] = '<li>';
+        $config['first_tag_close'] = '</li>';
+        $config['prev_link'] = '<';
+       // $config['prev_link'] = '&larr;';
+        $config['prev_tag_open'] = '<li class="prev">';
+        $config['prev_tag_close'] = '</li>';
+        $config['next_link'] = '>';
+       // $config['next_link'] = '&rarr;';
+        $config['next_tag_open'] = '<li>';
+        $config['next_tag_close'] = '</li>';
+        $config['last_tag_open'] = '<li>';
+        $config['last_tag_close'] = '</li>';
+        $config['cur_tag_open'] =  '<li class="active"><a href="#">';
+        $config['cur_tag_close'] = '</a></li>';
+        $config['num_tag_open'] = '<li>';
+        $config['num_tag_close'] = '</li>';
+		$this->pagination->initialize($config);
+
+        $data['pagination'] = $this->pagination->create_links();
+        
+		$data['galwww'] = $this->galery->get_all2($config['per_page'], $this->uri->rsegment(3));
+
+
+
+
+
+
 		//$data['galall'] = $this->galery->get_all();
 		//$data['galkatwww'] = $this->galery->getk(1);
 		//$data['galkatprog'] = $this->galery->getk(11);
 
-		$data['galwww'] = $this->galery->getk(1);
+		//$data['galwww'] = $this->galery->getk(1);
 		//$data['galprog'] = $this->galery->getk(11);
 
 //$ccc=$this->galery->getk(1);
