@@ -34,19 +34,27 @@
 		  
 		<div class="stalbetdiv" style="text-align:center;">	
 		  
-		    <div class="p3dar debidar divGisha" STYLE="text-align:right;margin:auto;"> <b style="font-weight:400;color:#FFF;" >WITAM NA STRONIE </b>			</div>
+		    <div class="p3dar debidar divGisha" STYLE="text-align:right;margin:auto;"> <b style="font-weight:400;color:#FFF;" >WITAM NA MOJEJ STRONIE </b>			</div>
 		    <div class="p1dar debidar divGisha" STYLE="text-align:right;margin:auto;margin-top:-15px;"> <b class="p1dar" style="font-weight:400;color:#FFF;" ></b></div>
 		
 		
 		 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:80px;margin-top:30px;padding-right:0px;text-align:center;font-size:16px;">		
 	    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:80px;padding-left:20px;padding-right:20px;">		   
-			 <div class="col1" style="">
+			 <div class="col1" style="color:#fff;text-align:center;">
 				 
 				 <div style="height:5px;width:10px;" ></div>
-				
+
+				 „Wszystko, czego się dotąd nauczyłeś, zatraci sens, jeśli nie potrafisz znaleźć zastosowania dla tej wiedzy.”<br/>
+					- Paulo Coelho<br/>
+
+					Ta myśl spowodowała że chciałem zebrać rzeczy które udało mi się zrobić w jednym miejscu żebym wiedział<br/>
+					 że nauka programowania którą codziennie zgłębiam miała sens.<br/>
+
+
+				<!--
 				Powyższa strona to portolio o mnie tzn. o Darku Krystek , programiście z miasta Łodźi, na stronie będe umieszczał moje projekty z różnych dziedzin </br>
 				programowania w przyszłości uruchomie blog gdzie będe starał się opisywać krok po kroku rozwiązania problemów na które się natknołem w swojej pracy.
-
+-->
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="min-height:15px;"></div>
 				<div class="" style="height:20px;width:70px;margin:auto;"><img  src="assets/dar/grafika/kropki.png"   /></div>
 			
@@ -110,8 +118,8 @@
 	  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:120px;margin-top:0px;padding-right:0px;background-color:#000;">	
       
 	  <div id="realizacje"  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:30px;text-align:center;" >	
-		 <div class="p3dar divGisha" STYLE="line-height:30px;"> <b style="font-weight:400;color:#FFF;" >GALERIA</b></div>
-		 <div class="p1dar divGisha" STYLE=""> <b style="font-weight:400;color:#FFF;"> NASZE OSTATNIE REALIZACJE</b></div>
+		 <div class="p3dar divGisha" STYLE="line-height:30px;text-align:center;"> <b style="font-weight:400;color:#FFF;" >GALERIA</b></div>
+		 <div class="p1dar divGisha" STYLE="text-align:center;"> <b style="font-weight:400;color:#FFF;"> NASZE OSTATNIE REALIZACJE</b></div>
 	  </div>
 	  
 	   
@@ -181,7 +189,7 @@ test 111
 		 		
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 butdiv3" style="">
 					<a href="<?php echo $galerialink ?>" class="p20dar">
-					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="">				
+					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;">				
 						ZOBACZ WIĘCEJ
 					</div>
 					</a>			
@@ -285,7 +293,7 @@ test 111
 								
 					<DIV STYLE="FLOAT:LEFT;WIDTH:20PX;HEIGHT:40PX;"></DIV>
 					<div  class="input3ka hvr-shutter-in-vertical" id="clerdar" style="cursor:pointer;"><div class="but1" style="cursor:pointer;">
-					<div class="but1a " style="cursor: pointer;"><?php echo $wys2 ?></div>
+					<div class="but1a " style="cursor: pointer;text-align:center;color:#fff;"><?php echo $wys2 ?></div>
 					</div></div>
 					
 					

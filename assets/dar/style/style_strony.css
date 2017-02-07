@@ -45,7 +45,7 @@ min-height:400px;
 a:active, a:focus {   outline: 0; }
 
 h1,h2,h3,h4,h5{font-family:Gisha,sans-serif;color:#000;}
-p,div{font-family: Myriad Pro,sans-serif;color:#fff;margin-bottom:0px; }
+p,div{font-family: Myriad Pro,sans-serif;color:#000;margin-bottom:0px;text-align:justify; }
 
 .divGisha{font-family:Gisha,sans-serif;color:#000;}
 .navbar-nav > li > a{line-height:24px;}

@@ -32,19 +32,23 @@ print'
 */
 print'
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:300px;padding-left:20px;padding-right:20px;">		   
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="">		   
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="">	
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3  textstyle1" style="">		   
 <img class="imgc hvr-buzz-out" src="'.$img.'"  title="DK" alt="DK" id="imgc'.$ii.'" />
+</div>
 </div>
 
 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 textstyle1" style="">		   
-
+<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3  textstyle1" style="">	
 '.$tekst.'
+
 </br></br>';
 
 echo '<a class="textstyle1" href="'.base_url("galeria/wiecej/".$id." ").'">więcej</a>';
+
 //<a class="textstyle1" href="galeria/wiecej/'.$id.'">więcej</a>
 //echo base_url("galeria/wiecej/".$id." ");
-print'</div>
+print'</div></div>
 
 </div>';
 }

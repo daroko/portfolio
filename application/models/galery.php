@@ -20,7 +20,7 @@ public function get_all()
 	{
 		return $this->db
 					->limit($limit, $offset)
-					->order_by($this->table.'.id', 'desc')
+					->order_by($this->table.'.id', 'ASC')
 					->get($this->table)
 					->result_array();
 	}

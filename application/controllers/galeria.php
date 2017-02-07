@@ -49,7 +49,7 @@ class galeria extends CI_Controller
 		$this->load->model('galery');
 		$config['base_url'] = site_url('galeria/index/');
 		$config['total_rows'] = $this->galery->count_all();
-		$config['per_page'] = 2;
+		$config['per_page'] = 4;
 
 		$config['full_tag_open'] = '<div class="pagination"><ul>';
         $config['full_tag_close'] = '</ul></div>';
