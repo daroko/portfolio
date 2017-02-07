@@ -133,7 +133,7 @@ test 111
 
 
 
-        $query2="select * from galeryitem WHERE id>0 ORDER BY id DESC";
+       // $query2="select TOP 8 * from galeryitem WHERE id>0 ORDER BY id DESC";
 		// $gal2=$this->GetQueryArrayresult($query2);	
 		 $gal2=array();	
 		  

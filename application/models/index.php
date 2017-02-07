@@ -16,8 +16,8 @@ public function wyswietl($act=1,$kat="",$typ="",$id="")
 public function get_all()
 	{
 //$query5="select * from galeryitem ORDER BY id";
-		return $this->db					
-					->order_by($this->table.'.id')
+		return $this->db->limit(8)					
+					->order_by($this->table.'.id')				
 					->get($this->table)
 					->result_array();
 	}

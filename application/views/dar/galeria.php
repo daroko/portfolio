@@ -6,10 +6,57 @@
 <div id="realizacje"> </div>   
 <div class="col-lg-12 col-md-12 col-xs-12" style="text-align:center;background-color:#fff;min-height:300px;">	
 <div class="" style="text-align:center;margin-top:50px;">	
-		  
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:40px;padding-top:10px;padding-bottom:10px;padding-left:20px;padding-right:20px;background-color:#000;">		   
+			
+				 
+				
+
+	
+					<a href="www" class="p20dar">
+					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
+						www
+					</div>
+					</a>
+					<a href="programy" class="p20dar">
+					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
+						programy
+					</div>
+					</a>
+					<a href="programy" class="p20dar">
+					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
+						raporty
+					</div>
+					</a>
+					<a href="programy" class="p20dar">
+					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
+						modele 3d
+					</div>
+					</a>			
+	
+
+				
+				
+			
+</div>
+
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="height:20px;">		   
+</div>		
+	
+
+
 <?php
 $ii=0;	
 $baseurl= base_url();	
+
+?>
+
+<?php
+
+
+
+
+
 
 foreach ($galwww as $www)
 {
