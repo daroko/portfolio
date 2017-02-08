@@ -13,22 +13,22 @@
 				
 
 	
-					<a href="www" class="p20dar">
+					<a href="<?php echo $link1vg;?>" class="p20dar">
 					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
 						www
 					</div>
 					</a>
-					<a href="programy" class="p20dar">
+					<a href="<?php echo $link2vg;?>" class="p20dar">
 					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
 						programy
 					</div>
 					</a>
-					<a href="programy" class="p20dar">
+					<a href="<?php echo $link3vg;?>" class="p20dar">
 					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
 						raporty
 					</div>
 					</a>
-					<a href="programy" class="p20dar">
+					<a href="<?php echo $link4vg;?>" class="p20dar">
 					 <div class="butdiv3a p20dar hvr-shutter-in-vertical" style="color:#fff;margin-top:0px;">				
 						modele 3d
 					</div>
