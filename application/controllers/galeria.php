@@ -27,10 +27,10 @@ class galeria extends CI_Controller
 
 		
 
-		$data['link1vg']=$baseurl."/galeria";
-		$data['link2vg']=$baseurl."/galeria2";
-		$data['link3vg']=$baseurl."/galeria3";
-		$data['link4vg']=$baseurl."/galeria4";
+		$data['link1vg']=$baseurl."galeria/www";
+		$data['link2vg']=$baseurl."galeria/programy";
+		$data['link3vg']=$baseurl."galeria/raporty";
+		$data['link4vg']=$baseurl."galeria/3d";
 
 
 		$data['link1v']="HOME";
@@ -82,7 +82,7 @@ class galeria extends CI_Controller
 
 		$this->load->model('galery');
 		$config['base_url'] = site_url('galeria/index/');
-		$config['total_rows'] = $this->galery->count_all();
+		$config['total_rows'] = $this->galery->count_all(1);
 		$config['per_page'] = 4;
 
 		$config['full_tag_open'] = '<div class="pagination"><ul>';
@@ -113,7 +113,7 @@ class galeria extends CI_Controller
 
 	
 
-		$data['galwww'] = $this->galery->get_all2($config['per_page'], $this->uri->rsegment(3));
+		$data['galwww'] = $this->galery->get_all2(1,$config['per_page'], $this->uri->rsegment(3));
 
 
 
@@ -215,7 +215,7 @@ $baseurl= base_url();
 
 		$this->load->model('galery');
 		$config['base_url'] = site_url('galeria/www/');
-		$config['total_rows'] = $this->galery->count_all();
+		$config['total_rows'] = $this->galery->count_all(1);
 		$config['per_page'] = 4;
 
 		$config['full_tag_open'] = '<div class="pagination"><ul>';
@@ -246,7 +246,7 @@ $baseurl= base_url();
 
 	
 
-		$data['galwww'] = $this->galery->get_all2($config['per_page'], $this->uri->rsegment(3));
+		$data['galwww'] = $this->galery->get_all2(1,$config['per_page'], $this->uri->rsegment(3));
 
 
         $this->load->view('dar/galeria',$data);
@@ -292,7 +292,7 @@ public function programy()
 
 		$this->load->model('galery');
 		$config['base_url'] = site_url('galeria/programy/');
-		$config['total_rows'] = $this->galery->count_all();
+		$config['total_rows'] = $this->galery->count_all(2);
 		$config['per_page'] = 4;
 
 		$config['full_tag_open'] = '<div class="pagination"><ul>';
@@ -323,7 +323,7 @@ public function programy()
 
 	
 
-		$data['galwww'] = $this->galery->get_all2($config['per_page'], $this->uri->rsegment(3));
+		$data['galwww'] = $this->galery->get_all2(2,$config['per_page'], $this->uri->rsegment(3));
 
 
         $this->load->view('dar/galeria',$data);

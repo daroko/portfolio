@@ -16,19 +16,33 @@ public function get_all()
 					->result_array();
 	}
 
-	public function get_all2($limit, $offset)
+	public function get_all2($id,$limit, $offset)
 	{
 		return $this->db
 					->limit($limit, $offset)
 					->order_by($this->table.'.id', 'ASC')
-					->get($this->table)
+					->get_where($this->table, array('k_id' => $id))
 					->result_array();
+
+					//->get($this->table)
+
+					//$query = $this->db->get_where('mytable', array('id' => $id), $limit, $offset);
+
 	}
 
 
-	public function count_all()
+	public function count_all($id)
 	{
-		return $this->db->count_all($this->table);
+	//$this->db->where('k_id',$id)->get($this->table);
+    //return $this->db->count_all_results();
+
+$query = $this->db->where('k_id',$id)->get($this->table);
+return $query->num_rows();
+
+	//	return $this->db->count_all_results($this->table,array('k_id' => $id));
+	//	count_all($this->table);
+
+	//	$total_count = $this->db->count_all_results('story_tbl', array('type' =>'Original'));
 	}
 
 	public function get($id)
