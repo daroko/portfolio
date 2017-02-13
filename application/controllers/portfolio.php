@@ -6,7 +6,7 @@ class portfolio extends CI_Controller
 	{
 		parent::__construct();
 		// Ładujemy bibliotekę sesji
-	//	$this->load->library('session');
+		$this->load->library('session');
 	}
 
 
@@ -54,7 +54,7 @@ $config = array(
         $this->email->set_newline("\r\n");
         // $this->email->initialize($config);
 
-        $this->email->from($email, 'Chirag');
+        $this->email->from($email, 'PORTFOLIO');
         $this->email->to($mail1);
         //$this->email->cc('darek.krystek@wp.pl');   
         $this->email->subject('zapytanie od '.$firma);
@@ -80,10 +80,12 @@ $config = array(
 
 }
 
+$data['title']="Strona o DK";
+$data['slowa_k1']="HOME,DK";
+$data['slowa_k2']="HOME,DK";
 
 
-
-$this->load->view('dar/naglowek');
+$this->load->view('dar/naglowek',$data);
 
 		//$this->load->model('menu');
 		//$this->menu->wyswietl('1');

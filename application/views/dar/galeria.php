@@ -1,5 +1,5 @@
 
-<div id="contents"  >  
+<div id="contents" style="margin-top:200px;" >  
 <div id="home"> </div>   
 <div id="omnie"> </div>   
 <div id="kontakt"> </div>   

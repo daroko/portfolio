@@ -44,11 +44,13 @@
 				 
 				 <div style="height:5px;width:10px;" ></div>
 
-				 „Wszystko, czego się dotąd nauczyłeś, zatraci sens, jeśli nie potrafisz znaleźć zastosowania dla tej wiedzy.”<br/>
+				„Wszystko, czego się dotąd nauczyłeś, zatraci sens, jeśli nie potrafisz znaleźć zastosowania dla tej wiedzy.”<br/>
 					- Paulo Coelho<br/>
 
-					Ta myśl spowodowała że chciałem zebrać rzeczy które udało mi się zrobić w jednym miejscu żebym wiedział<br/>
-					 że nauka programowania którą codziennie zgłębiam miała sens.<br/>
+					Ta myśl spowodowała że staram się zbierać rzeczy które robie, w jednym miejscu żebym wiedział<br/>
+					że nauka programowania którą codziennie zgłębiam miała sens i zastosowanie.<br/>
+					W niedalekiej przyszłości zamierzam opisywać na stronie różne problemy na które natknąłem się podczas pracy.
+
 
 
 				<!--
@@ -80,28 +82,35 @@
 		 
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:230px;padding-left:20px;padding-right:20px;">	
 					
-				  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="margin-top:0px;text-align:center;font-size:16px;color:#000;">	
+				  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " style="margin-top:0px;text-align:center;font-size:16px;color:#000;">
+
+ <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 " style="margin-top:0px;text-align:center;font-size:16px;color:#000;">
+	 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" style="margin-top:0px;text-align:center;font-size:16px;color:#000;">
+<img class="imgc hvr-buzz-out" src="assets/dar/grafika/dar.jpg"  title="DK" alt="DK" style="width:160px;height:230px;margin-top:50px;"  />
+
+</div>
+</div>
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 " style="margin-top:0px;text-align:center;font-size:16px;color:#000;">
+
 					 <div class="p3dar divGisha" STYLE=""> <b style="font-weight:400;color:#000;" >O MNIE</b></div>
-					 
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
-				test 121212121test 121212121test 121212121test 121212121<br/>
+					 <p>
+				W roku 2008 ukończyłem Politechnikę Łódzką, zdobyłem tytuł magistra o specjalności "Inżynieria oprogramowania i systemy sieciowe"
+				W trakcie studiów pracowałem w rozmaitych zawodach na różnych stanowiskach np. jako mechanik samochodowy, sprzedawca ,magazynier ,grafik 3d.
+				W 2006 zacząłem pracę w firmie Abrys gdzie zajmowałem się tworzeniem katalogów mebli 3d do programu Fusion, po 2 latach zmieniłem dział
+				na dział rozwoju gdzie pracuje do dziś, zajmuje się programowaniem w różnych technologiach począwszy od aplikacji desktopowych(WinForms,WPF) poprzez strony www i
+				web serwisy.<br/>
+				Dodatkowo tworze strony www jako freelancer, w swoim dorobku mam stworzonych kilkadziesiąt witryn głównie w języku php, próbuje swoich sił również w innych technologiach np.
+				asp mvc i node.js.
+				Dzięki chęci nauki potrafię odnaleźć się podczas realizacji rozmaitych projektów, niewiele rzeczy mnie zniechęca.
+				Ponadto uważam, że każdy ma narzędzia, aby poszerzać swoje możliwości.<br/><br/>
+
+
+
+</p>
+			
 
 					 
-					 
+					 </div>
 				  </div>
 				
 			</div>
@@ -119,7 +128,7 @@
       
 	  <div id="realizacje"  class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:30px;text-align:center;" >	
 		 <div class="p3dar divGisha" STYLE="line-height:30px;text-align:center;"> <b style="font-weight:400;color:#FFF;" >GALERIA</b></div>
-		 <div class="p1dar divGisha" STYLE="text-align:center;"> <b style="font-weight:400;color:#FFF;"> NASZE OSTATNIE REALIZACJE</b></div>
+		 <div class="p1dar divGisha" STYLE="text-align:center;"> <b style="font-weight:400;color:#FFF;"> PRZYKŁADOWE REALIZACJE</b></div>
 	  </div>
 	  
 	   
@@ -128,7 +137,6 @@
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-sm-offset-0"    style="margin:auto;">		
 		<div class="center-block" data-scale="0.2"  data-move-x="-150%"     style="min-height:440px;margin-top:0px;background-color:#fff;">		
 
-test 111
 <?php 
 
 
@@ -158,7 +166,7 @@ test 111
 		echo '<img class="imgc hvr-grow-rotate" src="'.$img.'"  title="DK" alt="DK" id="imgc'.$ii.'" />';
 		echo '<div class="object1"></div>';
 		echo '</a>	
-		<div id="title-'.$ii.'" class="hidden">'.$tekst.'</div>
+		<div id="title-'.$ii.'" class="hidden" STYLE="color:#fff;">'.$tekst.'</div>
 		</li>';		
 		}else
 		{
@@ -167,7 +175,7 @@ test 111
 		echo '<img class="imgc hvr-grow-rotate" src="'.$img.'"  title="DK" alt="DK" id="imgc'.$ii.'" />';
 		echo '<div class="object1"></div>';
 		echo '</a>
-		<div id="title-'.$ii.'" class="hidden">'.$tekst.'</div>
+		<div id="title-'.$ii.'" class="hidden" STYLE="color:#fff;">'.$tekst.'</div>
 		
 		</li>';	
 		}		
@@ -246,7 +254,7 @@ test 111
 				<div class="col-xs-10 col-sm-7 col-md-7 col-lg-7 col-xs-offset-0" style="min-height:100px;padding-left:0px;">
 				
 			  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:20px;margin-BOTTOM:20px;">	
-				 <div class="p3dar" style="width:100%;margin:auto;text-align:LEFT;"> <b style="font-weight:400;color:#fff;font:myriad pro;margin-left:30px;" >NAPISZ DO NAS</b></div>
+				 <div class="p3dar" style="width:100%;margin:auto;text-align:LEFT;"> <b style="font-weight:400;color:#fff;font:myriad pro;margin-left:30px;" >NAPISZ DO MNIE</b></div>
 			  </div>
 			  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:20px;margin-BOTTOM:20px;">	
 				
@@ -304,7 +312,7 @@ test 111
 				
 				<div class="col-xs-11 col-sm-3 col-md-3 col-lg-3  col-xs-offset-0 col-sm-offset-1 col-md-offset-1 col-lg-offset-1" style="min-height:10px;padding-left:0px;text-align:center;font-family:Myriad Pro;">
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:20px;margin-BOTTOM:20px;">	
-					test kon1
+				
 				
 				
 				</div> 

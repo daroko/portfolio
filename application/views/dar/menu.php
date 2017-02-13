@@ -1,4 +1,4 @@
-<div class="navbar-wrapper">
+<div class="navbar-wrapper" style="width:100%;top: 0px;left:0px; position: fixed;">
     
       <div class="navwrapper">
         <div class="navbar navbar-inverse navbar-static-top" style="" id="pasek1">

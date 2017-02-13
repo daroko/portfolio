@@ -17,7 +17,12 @@ class galeria extends CI_Controller
 		
 
 		$baseurl= base_url();
-        $this->load->view('dar/naglowek');
+$data['title']="Strona o DK";
+$data['slowa_k1']="HOME,DK";
+$data['slowa_k2']="HOME,DK";
+
+
+$this->load->view('dar/naglowek',$data);
 		
         //$this->load->view('dar/indexs');
 
@@ -30,7 +35,7 @@ class galeria extends CI_Controller
 		$data['link1vg']=$baseurl."galeria/www";
 		$data['link2vg']=$baseurl."galeria/programy";
 		$data['link3vg']=$baseurl."galeria/raporty";
-		$data['link4vg']=$baseurl."galeria/3d";
+		$data['link4vg']=$baseurl."galeria/modele3d";
 
 
 		$data['link1v']="HOME";
@@ -44,7 +49,7 @@ class galeria extends CI_Controller
 		$data['link5']=$baseurl."#kontakt";
 		$data['face']="https://www.facebook.com/darek.krystek";
 		$data['twiter']="#";
-		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do Idea Home";
+		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do DK";
 
 		$data['activ1']="active";
 		$data['activ2']="";
@@ -142,7 +147,12 @@ public function wiecej($id)
 //echo $id."---------";
 $baseurl= base_url();
 
- $this->load->view('dar/naglowek');
+$data['title']="Strona o DK";
+$data['slowa_k1']="HOME,DK";
+$data['slowa_k2']="HOME,DK";
+
+
+$this->load->view('dar/naglowek',$data);
 
  		$data['link1v']="HOME";
 		$data['link2v']="O MNIE";
@@ -156,7 +166,7 @@ $baseurl= base_url();
 		$data['link5']=$baseurl."#kontakt";
 		$data['face']="https://www.facebook.com/darek.krystek";
 		$data['twiter']="#";
-		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do Idea Home";
+		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do DK";
 
 		$data['activ1']="active";
 		$data['activ2']="";
@@ -183,14 +193,19 @@ $baseurl= base_url();
 		
 
 		$baseurl= base_url();
-        $this->load->view('dar/naglowek');
+     $data['title']="Strona o DK";
+$data['slowa_k1']="HOME,DK";
+$data['slowa_k2']="HOME,DK";
+
+
+$this->load->view('dar/naglowek',$data);
 		
 		
 
 		$data['link1vg']=$baseurl."galeria/www";
 		$data['link2vg']=$baseurl."galeria/programy";
 		$data['link3vg']=$baseurl."galeria/raporty";
-		$data['link4vg']=$baseurl."galeria/3d";
+		$data['link4vg']=$baseurl."galeria/modele3d";
 
 
 		$data['link1v']="HOME";
@@ -204,7 +219,7 @@ $baseurl= base_url();
 		$data['link5']=$baseurl."#kontakt";
 		$data['face']="https://www.facebook.com/darek.krystek";
 		$data['twiter']="#";
-		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do Idea Home";
+		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do DK";
 
 		$data['activ1']="active";
 		$data['activ2']="";
@@ -260,14 +275,19 @@ public function programy()
 		
 
 		$baseurl= base_url();
-        $this->load->view('dar/naglowek');
+       $data['title']="Strona o DK";
+$data['slowa_k1']="HOME,DK";
+$data['slowa_k2']="HOME,DK";
+
+
+$this->load->view('dar/naglowek',$data);
 		
 		
 
 		$data['link1vg']=$baseurl."galeria/www";
 		$data['link2vg']=$baseurl."galeria/programy";
 		$data['link3vg']=$baseurl."galeria/raporty";
-		$data['link4vg']=$baseurl."galeria/3d";
+		$data['link4vg']=$baseurl."galeria/modele3d";
 
 
 		$data['link1v']="HOME";
@@ -281,7 +301,7 @@ public function programy()
 		$data['link5']=$baseurl."#kontakt";
 		$data['face']="https://www.facebook.com/darek.krystek";
 		$data['twiter']="#";
-		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do Idea Home";
+		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do DK";
 
 		$data['activ1']="active";
 		$data['activ2']="";
@@ -324,6 +344,172 @@ public function programy()
 	
 
 		$data['galwww'] = $this->galery->get_all2(2,$config['per_page'], $this->uri->rsegment(3));
+
+
+        $this->load->view('dar/galeria',$data);
+        $this->load->view('dar/stopka');
+	
+	}
+
+
+	public function raporty()
+	{
+		$this->load->library('pagination');
+		
+
+		$baseurl= base_url();
+     $data['title']="Strona o DK";
+$data['slowa_k1']="HOME,DK";
+$data['slowa_k2']="HOME,DK";
+
+
+$this->load->view('dar/naglowek',$data);
+		
+		
+
+		$data['link1vg']=$baseurl."galeria/www";
+		$data['link2vg']=$baseurl."galeria/programy";
+		$data['link3vg']=$baseurl."galeria/raporty";
+		$data['link4vg']=$baseurl."galeria/modele3d";
+
+
+		$data['link1v']="HOME";
+		$data['link2v']="O MNIE";
+		$data['link3v']="GALERIA";
+		$data['link5v']="KONTAKT";
+
+		$data['link1']=$baseurl."#home";
+		$data['link2']=$baseurl."#omnie";
+		$data['link3']=$baseurl."#realizacje";
+		$data['link5']=$baseurl."#kontakt";
+		$data['face']="https://www.facebook.com/darek.krystek";
+		$data['twiter']="#";
+		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do DK";
+
+		$data['activ1']="active";
+		$data['activ2']="";
+		$data['activ3']="";
+		$data['activ4']="";	
+
+		$this->load->view('dar/menugal',$data);	
+
+		$this->load->model('galery');
+		$config['base_url'] = site_url('galeria/raporty/');
+		$config['total_rows'] = $this->galery->count_all(2);
+		$config['per_page'] = 4;
+
+		$config['full_tag_open'] = '<div class="pagination"><ul>';
+        $config['full_tag_close'] = '</ul></div>';
+        $config['first_link'] = false;
+        $config['last_link'] = false;
+        $config['first_tag_open'] = '<li>';
+        $config['first_tag_close'] = '</li>';
+        $config['prev_link'] = '<';
+       // $config['prev_link'] = '&larr;';
+        $config['prev_tag_open'] = '<li class="prev">';
+        $config['prev_tag_close'] = '</li>';
+        $config['next_link'] = '>';
+       // $config['next_link'] = '&rarr;';
+        $config['next_tag_open'] = '<li>';
+        $config['next_tag_close'] = '</li>';
+        $config['last_tag_open'] = '<li>';
+        $config['last_tag_close'] = '</li>';
+        $config['cur_tag_open'] =  '<li class="active"><a href="#">';
+        $config['cur_tag_close'] = '</a></li>';
+        $config['num_tag_open'] = '<li>';
+        $config['num_tag_close'] = '</li>';
+		$this->pagination->initialize($config);
+
+        $data['pagination'] = $this->pagination->create_links();
+        
+
+
+	
+
+		$data['galwww'] = $this->galery->get_all2(3,$config['per_page'], $this->uri->rsegment(3));
+
+
+        $this->load->view('dar/galeria',$data);
+        $this->load->view('dar/stopka');
+	
+	}
+
+
+	public function modele3d()
+	{
+		$this->load->library('pagination');
+		
+
+		$baseurl= base_url();
+      $data['title']="Strona o DK";
+$data['slowa_k1']="HOME,DK";
+$data['slowa_k2']="HOME,DK";
+
+
+$this->load->view('dar/naglowek',$data);
+		
+		
+
+		$data['link1vg']=$baseurl."galeria/www";
+		$data['link2vg']=$baseurl."galeria/programy";
+		$data['link3vg']=$baseurl."galeria/raporty";
+		$data['link4vg']=$baseurl."galeria/modele3d";
+
+
+		$data['link1v']="HOME";
+		$data['link2v']="O MNIE";
+		$data['link3v']="GALERIA";
+		$data['link5v']="KONTAKT";
+
+		$data['link1']=$baseurl."#home";
+		$data['link2']=$baseurl."#omnie";
+		$data['link3']=$baseurl."#realizacje";
+		$data['link5']=$baseurl."#kontakt";
+		$data['face']="https://www.facebook.com/darek.krystek";
+		$data['twiter']="#";
+		$data['mail']="mailto:biuro@idea-home.com.pl?subject=Pytanie do DK";
+
+		$data['activ1']="active";
+		$data['activ2']="";
+		$data['activ3']="";
+		$data['activ4']="";	
+
+		$this->load->view('dar/menugal',$data);	
+
+		$this->load->model('galery');
+		$config['base_url'] = site_url('galeria/raporty/');
+		$config['total_rows'] = $this->galery->count_all(2);
+		$config['per_page'] = 4;
+
+		$config['full_tag_open'] = '<div class="pagination"><ul>';
+        $config['full_tag_close'] = '</ul></div>';
+        $config['first_link'] = false;
+        $config['last_link'] = false;
+        $config['first_tag_open'] = '<li>';
+        $config['first_tag_close'] = '</li>';
+        $config['prev_link'] = '<';
+       // $config['prev_link'] = '&larr;';
+        $config['prev_tag_open'] = '<li class="prev">';
+        $config['prev_tag_close'] = '</li>';
+        $config['next_link'] = '>';
+       // $config['next_link'] = '&rarr;';
+        $config['next_tag_open'] = '<li>';
+        $config['next_tag_close'] = '</li>';
+        $config['last_tag_open'] = '<li>';
+        $config['last_tag_close'] = '</li>';
+        $config['cur_tag_open'] =  '<li class="active"><a href="#">';
+        $config['cur_tag_close'] = '</a></li>';
+        $config['num_tag_open'] = '<li>';
+        $config['num_tag_close'] = '</li>';
+		$this->pagination->initialize($config);
+
+        $data['pagination'] = $this->pagination->create_links();
+        
+
+
+	
+
+		$data['galwww'] = $this->galery->get_all2(4,$config['per_page'], $this->uri->rsegment(3));
 
 
         $this->load->view('dar/galeria',$data);

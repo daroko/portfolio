@@ -1,18 +1,29 @@
 
-<div id="contents"  >  
+<div id="contents"  style="margin-top:200px;">  
 <div id="home"> </div>   
 <div id="omnie"> </div>   
 <div id="kontakt"> </div>   
 <div id="realizacje"> </div>   
 <div class="col-lg-12 col-md-12 col-xs-12" style="text-align:center;background-color:#fff;min-height:300px;">	
 <div class="" style="text-align:center;margin-top:50px;">	
+
+<?php
+$baseurl= base_url();
+?>
+<div class="" style="text-align:left;padding:20px;">	
+<a  href="<?php echo $baseurl;?>/galeria" alt="DK"  >		   
+<b style="color:#000;">wróć do galerii</b>
+</a>
+</div>
 		  
 <?php
+if(count($galwww)>0)
+{
 $ii=0;
 $www=$galwww[0];
 $img=$www['image'];
 $tekst=$www['tekst'];
-$baseurl= base_url();
+
 
 print'
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:300px;padding-left:20px;padding-right:20px;">		   
@@ -25,14 +36,37 @@ print'
 
 </div>
 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 textstyle1" style="">		   
+<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3 col-sm-offset-3 col-md-offset-3 col-lg-offset-3" >		   
 
 '.$tekst.'
 </br></br>
+</div>
+</div>
+
+</div>';
+
+}
+else
+{
+print'
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:300px;padding-left:20px;padding-right:20px;">		   
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4" style="">
+
+
+
+</div>
+<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 textstyle1" style="">		   
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >		   
+
+W tej chwili brak elementów do wyświetlenia. Sprawdź jutro.
+</br></br>
+</div>
 </div>
 
 </div>';
 
 
+}
 
 echo '
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="min-height:100px;padding-left:20px;padding-right:20px;background-color:#000;">		   
